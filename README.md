@@ -9,7 +9,9 @@ Implementation:
 
 
 
-===============================================================================================================
+
+
+=============================================================================
 
 Faginův top(k) algoritmus
 
@@ -28,7 +30,7 @@ Webový interface: Vaadin
 Restful spojení s databází.
 
 4.	Příklad
-
+![exaple](https://user-images.githubusercontent.com/47738680/146242276-49196cab-e20d-4554-87c3-9d5262d0ff36.png)
 
 5.	Zaver
 Top-k operátor dovolí nám setřídit database podle několika atributu a zvolené agregační funkce, a dělá to rychlejší než běžný sekvenční algoritmus. Ten rozdíl je lepší viditelný když máme hromadu dat a malé k. Faginuv algoritm není optimální, např. protože musíme přečíst k atributu z každou setříděnou tabulky. Tento problém může řešit Treshhold algorithm, ale to už řeší jiný projekt.
